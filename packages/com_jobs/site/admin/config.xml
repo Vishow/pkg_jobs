@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="component" label="COM_JOBS_COMPONENT_LABEL" description="COM_JOBS_COMPONENT_DESC" addfieldpath="/administrator/components/com_jobs/models/fields">
+		<field name="default_state" type="state" label="COM_JOBS_FIELD_DEFAULT_STATE_LABEL" description="COM_JOBS_FIELD_DEFAULT_STATE_DESC">
+			<option value="">JSELECT</option>
+		</field>
+		<field name="currency" type="currency" class="inputbox" size="1" default="1" label="COM_JOBS_FIELD_CURRENCY_LABEL" description="COM_JOBS_FIELD_CURRENCY_DESC">
+			<option value="">JSELECT</option>
+		</field>
+	</fieldset>
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+		<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" filter="rules" validate="rules" component="com_jobs" section="component" />
+	</fieldset>
+</config>

@@ -1,0 +1,12 @@
+/* Fixes */
+.select2-container .select2-choice {
+	height: 28px;
+	line-height: 28px;
+}
+/* Table */
+table th a, table th a:hover {
+	text-decoration: none;
+}
+table th i {
+	line-height: normal;
+}
