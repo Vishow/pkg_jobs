@@ -1,0 +1,16 @@
+#jform_benefits ul {
+	list-style: none;
+	margin: 0;
+}
+#jform_benefits li {
+	margin: 0 5px 5px 0;
+	float: left;
+	min-width: 200px;
+}
+#jform_benefits input {
+	margin: 0;
+}
+#jform_benefits label {
+	display: inline-block;
+	margin: 0 0 0 10px;
+}
